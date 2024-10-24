@@ -1,1 +1,223 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Lviv</title>
+    <link rel="icon" href="images/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
+    <link href="fonts/bootstrap-icons.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+     <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+   <header>
+   
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="images/microsoft-logo.png" alt="Microsoft Logo" height="30">
+        </a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#home">Головна</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Послуги</a></li>
+                <li class="nav-item"><a class="nav-link" href="#feedback">Зворотний зв'язок</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Галерея</a></li>
+                <li class="nav-item"><a class="nav-link" href="#price">Ціни</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
+<main class="container">
+    
+ <section id="home" class="section py-5">
+        <h2>Ласкаво просимо</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Вітаємо на офіційній сторінці служби підтримки Microsoft у Львові! Тут ви знайдете актуальні новини, інформацію про наші послуги та інші корисні ресурси.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="images/hero-image.png" alt="Microsoft Support Center" class="img-fluid">
+            </div>
+        </div>
+    </section>
 
+<section id="services" class="section py-5">
+    <h2>Наші послуги</h2>
+    <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4">
+<div class="card h-100 shadow-sm hover-shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Технічна підтримка</h5>
+                    <p class="card-text">24/7 підтримка для користувачів та підприємств</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 shadow-sm hover-shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Встановлення ПЗ</h5>
+                    <p class="card-text">Налаштування та оптимізація програмного забезпечення Microsoft</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 shadow-sm hover-shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Оновлення систем</h5>
+                    <p class="card-text">Регулярні оновлення та виправлення помилок</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 shadow-sm hover-shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Консультації</h5>
+                    <p class="card-text">Експертні поради з ліцензування та оптимізації рішень Microsoft</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Підписатися на нас
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Вітаю, ви були успішно підписані на Microsoft Lviv</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Від сьогодні ви станете отримувати сповіщення про останні новини нашої компанії
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <section id="feedback" class="section py-5">
+        <h2>Зворотний зв'язок</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <form class="feedback-form">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Ваше ім'я" required>
+                    </div>
+                    <div class="mb-3">
+                       <input type="email" class="form-control" placeholder="Ваш Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" required>
+                            <option value="" disabled selected>Оберіть тему</option>
+                            <option value="feedback">Зворотний зв'язок</option>
+                            <option value="support">Підтримка</option>
+                            <option value="other">Інше</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" placeholder="Ваше повідомлення" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Відправити</button>
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <img src="images/feedback.jpg" alt="Зворотний зв'язок" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section py-5">
+        <h2>Галерея</h2>
+      
+<div class="row g-4">
+    <div class="col-lg-4 col-md-6">
+        <img src="images/office.jpg" alt="Microsoft Office" class="img-fluid rounded shadow-sm">
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <img src="images/windows11.jpg" alt="Windows 11" class="img-fluid rounded shadow-sm">
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <img src="images/copilot.png" alt="Microsoft Copilot" class="img-fluid rounded shadow-sm">
+    </div>
+</div>
+
+    </section>
+
+    <section id="price" class="section py-5">
+        <h2>Таблиця цін</h2>
+
+<div class="table-responsive">
+    <table class="table table-hover table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Послуга</th>
+                <th>Ціна</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Технічна підтримка 24/7</td>
+                <td>500 грн/місяць</td>
+            </tr>
+            <tr>
+                <td>Дистанційне усунення неполадок</td>
+                <td>300 грн/разово</td>
+            </tr>
+            <tr>
+                <td>Налаштування програмного забезпечення</td>
+                <td>400 грн</td>
+            </tr>
+	  <tr>
+                <td>Консультації з кібербезпеки</td>
+                <td>800 грн</td>
+            </tr>
+            <tr>
+                <td>Оновлення та моніторинг систем</td>
+                <td>600 грн/місяць</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+    </section>
+</main>
+
+<footer>
+	<p>&copy; 2024 Служба підтримки Microsoft у Львові. Усі права захищено.</p>
+    
+    <!-- YouTube Icon with link -->
+    <a href="https://www.youtube.com/@MicrosoftCustomerSupport/featured" target="_blank" style="margin-right: 10px; text-decoration: none;" rel="noopener noreferrer">
+        <i class="bi bi-youtube" style="font-size: 24px;"></i>
+    </a>
+    
+    <!-- Reddit Icon with link -->
+    <a href="https://www.reddit.com/r/windows/" target="_blank" style="margin-right: 10px; text-decoration: none;" rel="noopener noreferrer">
+        <i class="bi bi-reddit" style="font-size: 24px;"></i>
+    </a>
+    
+    <!-- Heart Icon with link -->
+    <a href="https://cad.lpnu.ua/staffone/details/patereha" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+        <i class="bi bi-heart" style="font-size: 24px;"></i>
+    </a>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
