@@ -264,8 +264,8 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto"> <!-- Вирівнювання праворуч з використанням класу ms-auto -->
                     <li class="nav-item"><a class="nav-link active" href="#home">Головна</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Послуги</a></li>
                     <li class="nav-item"><a class="nav-link" href="#feedback">Зворотний зв'язок</a></li>
@@ -277,6 +277,7 @@
     </nav>
 </header>
 <main class="container">
+    
     <section id="home" class="section py-5">
         <h2>Ласкаво просимо</h2>
         <div class="row">
@@ -303,16 +304,16 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm hover-shadow">
                     <div class="card-body">
-                        <h5 class="card-title">Встановлення ПЗ</h5>
-                        <p class="card-text">Професійна установка та налаштування програмного забезпечення</p>
+                        <h5 class="card-title">Консультації</h5>
+                        <p class="card-text">Поради щодо використання продуктів Microsoft</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm hover-shadow">
                     <div class="card-body">
-                        <h5 class="card-title">Ремонт пристроїв</h5>
-                        <p class="card-text">Ремонт комп'ютерної техніки та аксесуарів</p>
+                        <h5 class="card-title">Інсталяція</h5>
+                        <p class="card-text">Допомога у встановленні та налаштуванні програмного забезпечення</p>
                     </div>
                 </div>
             </div>
@@ -320,7 +321,7 @@
                 <div class="card h-100 shadow-sm hover-shadow">
                     <div class="card-body">
                         <h5 class="card-title">Навчання</h5>
-                        <p class="card-text">Тренінги для користувачів та IT-фахівців</p>
+                        <p class="card-text">Онлайн-курси та тренінги для персоналу</p>
                     </div>
                 </div>
             </div>
@@ -332,8 +333,8 @@
         <div class="feedback-container">
             <form class="feedback-form">
                 <input type="text" placeholder="Ваше ім'я" required>
-                <input type="email" placeholder="Ваш email" required>
-                <textarea placeholder="Ваші коментарі" rows="5" required></textarea>
+                <input type="email" placeholder="Ваш Email" required>
+                <textarea placeholder="Ваші побажання" rows="4" required></textarea>
                 <button type="submit">Надіслати</button>
             </form>
         </div>
@@ -342,50 +343,48 @@
     <section id="gallery" class="section py-5">
         <h2>Галерея</h2>
         <div class="gallery-grid">
-            <img src="images/photo1.jpg" alt="Фото 1">
-            <img src="images/photo2.jpg" alt="Фото 2">
-            <img src="images/photo3.jpg" alt="Фото 3">
-            <img src="images/photo4.jpg" alt="Фото 4">
+            <img src="images/gallery1.jpg" alt="Фото 1">
+            <img src="images/gallery2.jpg" alt="Фото 2">
+            <img src="images/gallery3.jpg" alt="Фото 3">
+            <img src="images/gallery4.jpg" alt="Фото 4">
         </div>
     </section>
 
     <section id="price" class="section py-5">
         <h2>Ціни</h2>
-        <div class="price-container">
-            <table class="price-table">
-                <thead>
-                    <tr>
-                        <th>Послуга</th>
-                        <th>Ціна</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Технічна підтримка</td>
-                        <td>500 грн/год</td>
-                    </tr>
-                    <tr>
-                        <td>Встановлення ПЗ</td>
-                        <td>800 грн</td>
-                    </tr>
-                    <tr>
-                        <td>Ремонт пристроїв</td>
-                        <td>від 1000 грн</td>
-                    </tr>
-                    <tr>
-                        <td>Навчання</td>
-                        <td>1500 грн/курс</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <table class="price-table">
+            <thead>
+                <tr>
+                    <th>Послуга</th>
+                    <th>Ціна (₴)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Технічна підтримка</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>Консультації</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>Інсталяція</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <td>Навчання</td>
+                    <td>600</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 </main>
 <footer>
-    <p>© 2024 Microsoft Lviv. Всі права захищені.</p>
+    <p>&copy; 2024 Microsoft Lviv. Усі права захищено.</p>
 </footer>
 
 <!-- Bootstrap JS -->
-<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
