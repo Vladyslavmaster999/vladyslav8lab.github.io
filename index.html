@@ -1,148 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>bootstrap</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Lviv</title>
+    <link rel="icon" href="images/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
+    <link href="fonts/bootstrap-icons.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-
-    <link href="fonts/bs_icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
-  <nav id="home" class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">навіґація</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://www.google.com/maps/@43.592178,19.5173161,5306m/data=!3m1!1e3?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAyMi4wIKXMDSoASAFQAw%3D%3D">дім (його немає)</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="https://youtu.be/dQw4w9WgXcQ?si=dz_jtI-SnRjikZZB">PRESS ME</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="знайти (нічого)" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">пошук</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+    <header>
 
-      
-      <div id="jokes" class="container main_text">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 topic">
-            <h1>АНКЕДОТИ ПРО ОВОЧІ</h1>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 box1">
-            <p>"Ну хто тут головний на городі? Звісно ж, я – Картопля!" Картопля гордо виставляє своє кругленьке пузце й готується до зимового "зимування". Її не лякає холод і не лякає весна. Суп, пюре, картопля фрі – де ти ще знайдеш таку універсальність? Вона розповідає історії про своє круте життя серед панів, дворян та ще якихось хіпстерів, що з любов’ю викладають її фотки в Інстаграм. "Я ж, як-не-як, картопля!", – підморгує вона.</p>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 box2">
-            <p>Морква – це справжня модниця серед овочів. Тільки подивись на неї – така яскрава, така оранжева! Ніби зранку обов'язково сходила до салону краси на морквяний манікюр. І хоча у моркви мізки невеликі, у неї все одно велике серце – вона ж головний постачальник вітамінів і морквяного настрою! Любить знущатися з буряка: "Ну що, сестричко, знову червона від злості?" І буряк тремтить, бо знає – морква завжди виграє в конкурсі краси.</p>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 box3">
-            <p>Цибуля – це таке диво, яке навчає нас усіх емоційної витривалості. Вона розказує свою "шарову" історію: кожен шар приховує таємницю, але розкрити їх не так просто – треба пролити пару сліз! "Я – найкращий друг кухарів", – гордо каже Цибуля, блимаючи своїм специфічним запахом. А потім додає: "Хочеш дізнатися, чому плачуть люди? Відкрий мене!"</p>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 box4">
-            <p>Огірок – справжній тусовщик. Він завжди свіжий, завжди "зелений" до нових ідей! Його найкращі друзі – сметана і кріп. У будь-якій компанії він завжди з'являється з хрумким настроєм і любить пожартувати: "Якщо мене нарізати, то я стаю навіть цікавішим!" А коли приходить зима, огірок йде у відпустку, заздалегідь приготувавши свою мариновану версію, щоб завжди бути поруч – навіть у холоді.</p>
-          </div>
-          <div class="col-lg-12 col-md-12 col-sm-12 table">
-              
-          </div>
-        </div>
-        
-        <div id="buttons" class="d-flex justify-content-center">
-          <a href="https://maps.app.goo.gl/M8p7h29FSp2qbpea8" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">вичислити геолокацію по айпі адресі </a>
-        </div>
-
-        <div> <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">№</th>
-              <th scope="col">овоч</th>
-              <th scope="col">прізвище</th>
-              <th scope="col">псевдонім</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>картопля</td>
-              <td>головна</td>
-              <td>@barabolia</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>морква</td>
-              <td>модна</td>
-              <td>@slay</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>цибуля</td>
-              <td>шарова</td>
-              <td>@cry</td>
-            </tr>
-            <tr>
-              <th scope="row">4</th>
-              <td>огірок</td>
-              <td>тусовщик</td>
-              <td>@funny</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="image-container">
-        <img src="images/kyrylo.jpeg" alt="kyrylo" class="centered-image">
-    </div>
-    
-
-      <div class="icon_fonts"> 
-        <i class="bi bi-cloud-hail" style="font-size: 90px;"></i>
-        <i class="bi bi-compass-fill" style="font-size: 90px;"></i>
-      </div>
-        
-        <footer class="py-5">
-          <div class="row">
-            <div class="col-6 col-md-2 mb-3">
-              <h5>розділи (клікніть):</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#home" class="nav-link p-0 text-body-secondary">дім</a></li>
-                <li class="nav-item mb-2"><a href="#jokes" class="nav-link p-0 text-body-secondary">анекдоти</a></li>
-                <li class="nav-item mb-2"><a href="#buttons" class="nav-link p-0 text-body-secondary">кнопки</a></li>
-              </ul>
-            </div>
-      
-            <div class="col-md-5 offset-md-1 mb-3">
-              <form>
-                <h5>напишіть свою пошту</h5>
-                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                  <label for="newsletter1" class="visually-hidden">е-пошта</label>
-                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                  <button class="btn btn-primary" type="button">надіслати</button>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/bmw-logo-1997.webp" alt="Microsoft Logo" height="30">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#home">�������</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">�������</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#feedback">��������� ��'����</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#gallery">�������</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#price">ֳ��</a></li>
+                    </ul>
                 </div>
-              </form>
             </div>
-          </div>
-      
-          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>© 2024 контора, корп. усі права зарезервовано.</p>
-            <ul class="list-unstyled d-flex">
-              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-            </ul>
-          </div>
-        </footer>
+        </nav>
+    </header>
+    <main class="container">
 
-      <script src="js/bootstrap.js"></script>
-    </body>
-    </html>
+        <section id="home" class="section py-5">
+            <h2>�������� �����������˲� BMW.</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm hover-shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">��Ĳ��� ��� ����Ĳ�.</h5>
+                            <p class="card-text">����� �� ������ ������ ��� �������� ������ � ����� �������� � �������� ������� ��� �� ����. �� ������, �� �� ������ �������� ������ CO2 �� ����� ���� � ���, � �������� �������� ������� ��������� ������ ���������. ĳ�������� ����� ��� ��, �� ���������� ��������� ������ �� ��������� ����������.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm hover-shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">������ в����� ��� ����������.</h5>
+                            <p class="card-text">�������������� ������� �������� ������� Wallbox, ��� ������ ��������� ������������, �� �������� � ����. ���������� ������������ �������� ����, ��� �������� ���� � ������ ������� ������. �������� ������ ������� �������: �� ��������� ���, � ��� ������������ ������ ����������� �����.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="images/inrix-bmw-1.jpg" alt="Microsoft Support Center" class="img-fluid">
+            </div>
+        </section>
 
+        <section id="price" class="section py-5">
+            <h2>������� ���</h2>
+
+            <div class="table-responsive">
+                <table class="table table-hover table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>�������</th>
+                            <th>ֳ��</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>������� �������� 24/7</td>
+                            <td>500 ���/�����</td>
+                        </tr>
+                        <tr>
+                            <td>����������� �������� ���������</td>
+                            <td>300 ���/������</td>
+                        </tr>
+                        <tr>
+                            <td>������������ ����������� ������������</td>
+                            <td>400 ���</td>
+                        </tr>
+                        <tr>
+                            <td>������������ � �����������</td>
+                            <td>800 ���</td>
+                        </tr>
+                        <tr>
+                            <td>��������� �� ��������� ������</td>
+                            <td>600 ���/�����</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            ϳ��������� �� ���
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">³���, �� ���� ������ ������� �� Microsoft Lviv</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ³� ������� �� ������� ���������� ��������� ��� ������ ������ ���� �������
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="feedback" class="section py-5">
+            <h2>��������� ��'����</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <form class="feedback-form">
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="��� Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-select" required>
+                                <option value="" disabled selected>������ ����</option>
+                                <option value="feedback">��������� ��'����</option>
+                                <option value="support">ϳ�������</option>
+                                <option value="other">����</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">³��������</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/feedback.jpg" alt="��������� ��'����" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section py-5">
+            <h2>�������</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <img src="images/office.jpg" alt="Microsoft Office" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="images/windows11.jpg" alt="Windows 11" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="images/copilot.png" alt="Microsoft Copilot" class="img-fluid rounded shadow-sm">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ������ �������� Microsoft � �����. �� ����� ��������.</p>
+
+        <!-- YouTube Icon with link -->
+        <a href="https://www.youtube.com/@MicrosoftCustomerSupport/featured" target="_blank" style="margin-right: 10px; text-decoration: none;" rel="noopener noreferrer">
+            <i class="bi bi-browser-chrome" style="font-size: 24px;"></i>
+        </a>
+
+        <!-- Reddit Icon with link -->
+        <a href="https://www.reddit.com/r/windows/" target="_blank" style="margin-right: 10px; text-decoration: none;" rel="noopener noreferrer">
+            <i class="bi bi-reddit" style="font-size: 24px;"></i>
+        </a>
+
+        <!-- Heart Icon with link -->
+        <a href="https://cad.lpnu.ua/staffone/details/patereha" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+            <i class="bi bi-heart" style="font-size: 24px;"></i>
+        </a>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
