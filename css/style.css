@@ -168,23 +168,6 @@ button:hover {
     background-color: #106ebe;
 }
 
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-}
-
-.gallery-grid img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-    transition: transform 0.3s ease;
-}
-
-.gallery-grid img:hover {
-    transform: scale(1.05);
-}
-
 .price-table {
     width: 100%;
     border-collapse: collapse;
