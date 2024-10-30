@@ -156,7 +156,7 @@ input, select, textarea, button {
 }
 
 .btn-red {
-    background-color: #bd100b /* Червоний колір */
+    background-color: #bd100b; /* Червоний колір */
     color: #fff; /* Білий колір тексту */
     border: none;
 }
@@ -164,6 +164,7 @@ input, select, textarea, button {
 .btn-red:hover {
     background-color: #8a110e; /* Темніший червоний при наведенні */
 }
+
 
 .characteristic-table {
     width: 100%;
