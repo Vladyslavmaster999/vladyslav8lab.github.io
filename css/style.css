@@ -167,16 +167,14 @@ input, select, textarea, button {
     font-family: 'Segoe UI', sans-serif;
 }
 
-button {
-    background-color: #0078d4;
-    color: #fff;
+.btn-red {
+    background-color: #bd100b /* Червоний колір */
+    color: #fff; /* Білий колір тексту */
     border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #106ebe;
+.btn-red:hover {
+    background-color: #8a110e; /* Темніший червоний при наведенні */
 }
 
 .characteristic-table {
