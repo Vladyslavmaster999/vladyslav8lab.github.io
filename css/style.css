@@ -130,17 +130,17 @@ h2 {
     border-radius: 4px;
 }
 
-.price-table {
+.characteristic-table {
     width: 100%;
     max-width: 600px;
 }
 
 @media (max-width: 768px) {
-    .feedback-container, .price-container {
+    .feedback-container, .characteristic-container {
         flex-direction: column;
     }
 
-    .feedback-form, .price-table {
+    .feedback-form, .characteristic-table {
         width: 100%;
     }
 
@@ -168,18 +168,18 @@ button:hover {
     background-color: #106ebe;
 }
 
-.price-table {
+.characteristic-table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.price-table th, .price-table td {
+.characteristic-table th, .characteristic-table td {
     padding: 12px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
 
-.price-table th {
+.characteristic-table th {
     background-color: #f3f3f3;
     font-weight: 600;
 }
