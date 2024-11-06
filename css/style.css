@@ -1,3 +1,4 @@
+/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -11,12 +12,14 @@ body {
     line-height: 1.6;
 }
 
+/* Container */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
+/* Header Styles */
 header {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -40,6 +43,7 @@ h1 {
     font-weight: 600;
 }
 
+/* Navigation Menu */
 nav .menu {
     list-style: none;
     display: flex;
@@ -57,6 +61,7 @@ nav .menu a:hover {
     color: #0078d4;
 }
 
+/* Section Styles */
 .section {
     background-color: #fff;
     border-radius: 4px;
@@ -71,11 +76,13 @@ h2 {
     font-size: 28px;
 }
 
+/* Services Grid */
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
+
 .service-card {
     background-color: #f9f9f9;
     padding: 20px;
@@ -94,13 +101,12 @@ h2 {
     margin-bottom: 10px;
 }
 
+/* Feedback and Form Styles */
 .feedback-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-
-
 
 .feedback-container, .price-container {
     display: flex;
@@ -114,6 +120,7 @@ h2 {
     max-width: 500px;
 }
 
+/* Image Container */
 .image-container {
     width: 100%;
     display: flex;
@@ -129,25 +136,7 @@ h2 {
     border-radius: 4px;
 }
 
-.characteristic-table {
-    width: 100%;
-    max-width: 600px;
-}
-
-@media (max-width: 768px) {
-    .feedback-container, .characteristic-container {
-        flex-direction: column;
-    }
-
-    .feedback-form, .characteristic-table {
-        width: 100%;
-    }
-
-    .centered-image {
-        max-height: 300px;
-    }
-}
-
+/* Form Elements */
 input, select, textarea, button {
     padding: 10px;
     border: 1px solid #ddd;
@@ -155,17 +144,23 @@ input, select, textarea, button {
     font-family: 'Segoe UI', sans-serif;
 }
 
+/* Button Styles */
 .btn-red {
-    background-color: #d9534f !important; /* Червоний колір */
-    color: #fff !important; /* Білий колір тексту */
+    background-color: #dfed5c !important;
+    color: #fff !important;
     border: none !important;
 }
 
 .btn-red:hover {
-    background-color: #c9302c !important; /* Темніший червоний при наведенні */
+    background-color: #2012a3 !important;
 }
 
+/* Characteristic Table */
 
+.characteristic-table {
+    width: 100%;
+    max-width: 600px;
+}
 
 .characteristic-table {
     width: 100%;
@@ -183,6 +178,7 @@ input, select, textarea, button {
     font-weight: 600;
 }
 
+/* Footer Styles */
 footer {
     background-color: #f3f3f3;
     color: #666;
@@ -191,7 +187,21 @@ footer {
     margin-top: 40px;
 }
 
+/* Media Queries */
 @media (max-width: 768px) {
+
+    .feedback-container, .characteristic-container {
+        flex-direction: column;
+    }
+
+    .feedback-form, .characteristic-table {
+        width: 100%;
+    }
+
+    .centered-image {
+        max-height: 300px;
+    }
+
     .header-container {
         flex-direction: column;
         text-align: center;
@@ -206,7 +216,7 @@ footer {
     }
 }
 
-
+/* Footer Links */
 footer a {
     text-decoration: none;
 }
@@ -215,7 +225,7 @@ footer a:hover {
     text-decoration: none;
 }
 
-
+/* Card Hover Effects */
 .card {
     transition: box-shadow 0.3s ease-in-out;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
